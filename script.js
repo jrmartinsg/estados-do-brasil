@@ -82,7 +82,7 @@ function estados() {
         res.innerHTML = `Você é <strong>Potiguar</strong>! Sua capital é <strong>Natal</strong>!`
         img.src = './imgs/rio-grande-do-norte.png'
     }
-    else if ((estado == 'rs' || estado == 'RS') || (estado == 'Rn' || estado == 'rN')) {
+    else if ((estado == 'rs' || estado == 'RS') || (estado == 'Rs' || estado == 'rS')) {
         res.innerHTML = `Você é <strong>Gaúcho</strong>! Sua capital é <strong>Porto Alegre</strong>!`
         img.src = './imgs/rio-grande-do-sul.png'
     }
